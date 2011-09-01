@@ -6,7 +6,7 @@ The server is available here (https://github.com/jstin/Tosmiss).
 
 ## What is in this repo?
 
-This repo contains the iPhone Client. Get the server at (https://github.com/jstin/Tosmiss)!!!
+This repo contains the iPhone Client. Get the server at (https://github.com/jstin/Tosmiss).
 
 ## How to use?
 
