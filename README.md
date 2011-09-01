@@ -4,6 +4,11 @@ Tosmiss (The Open Source Mobile Image Sharing System) is a web server and mobile
 
 The server is available here (https://github.com/jstin/Tosmiss).
 
+## Demo?
+
+http://knowyourbro.com
+http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=447715111&mt=8
+
 ## What is in this repo?
 
 This repo contains the iPhone Client. Get the server at (https://github.com/jstin/Tosmiss).
