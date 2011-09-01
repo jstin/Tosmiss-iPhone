@@ -16,6 +16,12 @@
 		6B2E1A7F140F09F100A5D0F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E1A7D140F09F100A5D0F8 /* MainWindow.xib */; };
 		6B2E1A82140F09F100A5D0F8 /* tosmiss_iphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E1A81140F09F100A5D0F8 /* tosmiss_iphoneViewController.m */; };
 		6B2E1A85140F09F100A5D0F8 /* tosmiss_iphoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E1A83140F09F100A5D0F8 /* tosmiss_iphoneViewController.xib */; };
+		6B2E1A92140F0B0A00A5D0F8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E1A8C140F0B0A00A5D0F8 /* AboutViewController.m */; };
+		6B2E1A93140F0B0A00A5D0F8 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E1A8D140F0B0A00A5D0F8 /* AboutViewController.xib */; };
+		6B2E1A94140F0B0A00A5D0F8 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E1A8F140F0B0A00A5D0F8 /* AsyncSocket.m */; };
+		6B2E1A95140F0B0A00A5D0F8 /* random.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E1A90140F0B0A00A5D0F8 /* random.png */; };
+		6B2E1A96140F0B0A00A5D0F8 /* random@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E1A91140F0B0A00A5D0F8 /* random@2x.png */; };
+		6B2E1A98140F0B3A00A5D0F8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2E1A97140F0B3A00A5D0F8 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +29,24 @@
 		6B2E1A6B140F09F100A5D0F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6B2E1A6D140F09F100A5D0F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B2E1A6F140F09F100A5D0F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6B2E1A73140F09F100A5D0F8 /* tosmiss-iphone-Info.plist */ = {isa = PBXFileReference; path = "tosmiss-iphone-Info.plist"; sourceTree = "<group>"; };
+		6B2E1A73140F09F100A5D0F8 /* tosmiss-iphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tosmiss-iphone-Info.plist"; sourceTree = "<group>"; };
 		6B2E1A75140F09F100A5D0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6B2E1A77140F09F100A5D0F8 /* tosmiss-iphone-Prefix.pch */ = {isa = PBXFileReference; path = "tosmiss-iphone-Prefix.pch"; sourceTree = "<group>"; };
+		6B2E1A77140F09F100A5D0F8 /* tosmiss-iphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tosmiss-iphone-Prefix.pch"; sourceTree = "<group>"; };
 		6B2E1A78140F09F100A5D0F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B2E1A7A140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.h */ = {isa = PBXFileReference; path = tosmiss_iphoneAppDelegate.h; sourceTree = "<group>"; };
+		6B2E1A7A140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tosmiss_iphoneAppDelegate.h; sourceTree = "<group>"; };
 		6B2E1A7B140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tosmiss_iphoneAppDelegate.m; sourceTree = "<group>"; };
 		6B2E1A7E140F09F100A5D0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6B2E1A80140F09F100A5D0F8 /* tosmiss_iphoneViewController.h */ = {isa = PBXFileReference; path = tosmiss_iphoneViewController.h; sourceTree = "<group>"; };
+		6B2E1A80140F09F100A5D0F8 /* tosmiss_iphoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tosmiss_iphoneViewController.h; sourceTree = "<group>"; };
 		6B2E1A81140F09F100A5D0F8 /* tosmiss_iphoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tosmiss_iphoneViewController.m; sourceTree = "<group>"; };
 		6B2E1A84140F09F100A5D0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tosmiss_iphoneViewController.xib; sourceTree = "<group>"; };
+		6B2E1A8B140F0B0A00A5D0F8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		6B2E1A8C140F0B0A00A5D0F8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		6B2E1A8D140F0B0A00A5D0F8 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		6B2E1A8E140F0B0A00A5D0F8 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		6B2E1A8F140F0B0A00A5D0F8 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		6B2E1A90140F0B0A00A5D0F8 /* random.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = random.png; sourceTree = "<group>"; };
+		6B2E1A91140F0B0A00A5D0F8 /* random@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "random@2x.png"; sourceTree = "<group>"; };
+		6B2E1A97140F0B3A00A5D0F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2E1A98140F0B3A00A5D0F8 /* CFNetwork.framework in Frameworks */,
 				6B2E1A6C140F09F100A5D0F8 /* UIKit.framework in Frameworks */,
 				6B2E1A6E140F09F100A5D0F8 /* Foundation.framework in Frameworks */,
 				6B2E1A70140F09F100A5D0F8 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +67,7 @@
 		6B2E1A5C140F09F100A5D0F8 = {
 			isa = PBXGroup;
 			children = (
+				6B2E1A97140F0B3A00A5D0F8 /* CFNetwork.framework */,
 				6B2E1A71140F09F100A5D0F8 /* tosmiss-iphone */,
 				6B2E1A6A140F09F100A5D0F8 /* Frameworks */,
 				6B2E1A68140F09F100A5D0F8 /* Products */,
@@ -79,6 +95,13 @@
 		6B2E1A71140F09F100A5D0F8 /* tosmiss-iphone */ = {
 			isa = PBXGroup;
 			children = (
+				6B2E1A8B140F0B0A00A5D0F8 /* AboutViewController.h */,
+				6B2E1A8C140F0B0A00A5D0F8 /* AboutViewController.m */,
+				6B2E1A8D140F0B0A00A5D0F8 /* AboutViewController.xib */,
+				6B2E1A8E140F0B0A00A5D0F8 /* AsyncSocket.h */,
+				6B2E1A8F140F0B0A00A5D0F8 /* AsyncSocket.m */,
+				6B2E1A90140F0B0A00A5D0F8 /* random.png */,
+				6B2E1A91140F0B0A00A5D0F8 /* random@2x.png */,
 				6B2E1A7A140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.h */,
 				6B2E1A7B140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.m */,
 				6B2E1A7D140F09F100A5D0F8 /* MainWindow.xib */,
@@ -151,6 +174,9 @@
 				6B2E1A76140F09F100A5D0F8 /* InfoPlist.strings in Resources */,
 				6B2E1A7F140F09F100A5D0F8 /* MainWindow.xib in Resources */,
 				6B2E1A85140F09F100A5D0F8 /* tosmiss_iphoneViewController.xib in Resources */,
+				6B2E1A93140F0B0A00A5D0F8 /* AboutViewController.xib in Resources */,
+				6B2E1A95140F0B0A00A5D0F8 /* random.png in Resources */,
+				6B2E1A96140F0B0A00A5D0F8 /* random@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +190,8 @@
 				6B2E1A79140F09F100A5D0F8 /* main.m in Sources */,
 				6B2E1A7C140F09F100A5D0F8 /* tosmiss_iphoneAppDelegate.m in Sources */,
 				6B2E1A82140F09F100A5D0F8 /* tosmiss_iphoneViewController.m in Sources */,
+				6B2E1A92140F0B0A00A5D0F8 /* AboutViewController.m in Sources */,
+				6B2E1A94140F0B0A00A5D0F8 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
