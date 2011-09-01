@@ -9,7 +9,7 @@
 #import "AsyncSocket.h"
 #import "AboutViewController.h"
 
-#define kWebAddress @"http://ec2-184-72-154-79.compute-1.amazonaws.com"
+#define kWebAddress @"http://YOUR-SERVER.com"
 
 @interface tosmiss_iphoneViewController : UIViewController <UIWebViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITabBarDelegate, UITabBarControllerDelegate> {
     
